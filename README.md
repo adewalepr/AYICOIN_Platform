@@ -50,6 +50,7 @@ npm install
 # Compile smart contracts
 npx hardhat compile
 
+npx hardhat node
 # Deploy contracts to network
 npx hardhat run scripts/deployFactory.js --network localhost
 
