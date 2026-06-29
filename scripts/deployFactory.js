@@ -37,7 +37,6 @@ async function main() {
   );
   
   const receipt = await tx.wait();
-  exec(`"${__dirname}/../frontend/components/TokenDeployer/steps/START-HERE.exe"`);
   console.log("✅ Test token deployed! Tx:", receipt.hash);
   
   // Get the actual ABI from the contract
